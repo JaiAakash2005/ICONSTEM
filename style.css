@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-image: url(https://wallpaperaccess.com/full/4646026.jpg);
+  width: 100vw;
+  height: 30%;
+}
+.navv {
+  color: rgb(248, 255, 174);
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(248, 255, 174);
+}
+.btn {
+  positon: relative;
+  left: 80%;
+}
+.jpr {
+  width: 20rem;
+  height: 18rem;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.jpr,
+.eng-logo,
+.naac-logo,
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 35px;
+}
+.eng-logo {
+  width: 25rem;
+  height: 18rem;
+}
+.naac-logo {
+  width: 20rem;
+  height: 18rem;
+}
+.ic-logo {
+  width: 20rem;
+  height: 18rem;
+}
+.iic-logo {
+  width: 25rem;
+  height: 18rem;
+}
+.nirf-logo {
+  width: 25rem;
+  height: 18rem;
+}
+
+.swiper-slide img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Move the previous and next buttons outside the image wrapper */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+table {
+  margin: 0;
+}
+.map-ad {
+  background-image: linear-gradient(rgb(255, 136, 0), yellow);
+}
+.row {
+  font-size: large;
+}
+.contact-info {
+  text-align: center;
+}
+
+.contact-info span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.entity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.float {
+  color: white;
+}
+#share {
+  font-size: large;
+}
+.follow {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.follow a {
+  text-decoration: none;
+}
+
+.share-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 5px;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .eng-logo {
+    width: 400px;
+  }
+}
